@@ -1,0 +1,32 @@
+.fat {
+  display: flex;
+
+  padding-bottom: 25px;
+
+  align-items: stretch;
+  justify-content: center;
+}
+
+.fat-item {
+  width: 171px;
+  margin: 0 30px;
+  &__img {
+    position: relative;
+
+    width: 171px;
+    height: 223px;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+      transform: translate(-50%,-50%);
+    }
+  }
+  &__text {
+    text-align: center;
+
+    font-size: 15px;
+    line-height: 18px;
+  }
+}

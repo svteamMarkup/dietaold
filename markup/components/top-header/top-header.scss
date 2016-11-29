@@ -1,0 +1,184 @@
+.top-header {
+  position: relative;
+
+  width: 1027px;
+  height: 617px;
+  margin: auto;
+
+  background: url(%=static=%general/top-bg.png) no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.top-header-questions {
+  position: absolute;
+  top: 170px;
+  left: 514px;
+  &__title {
+    margin-bottom: 30px;
+
+    color: #8d1111;
+
+    font-size: 30px;
+    line-height: 30px;
+  }
+  &__item {
+    margin-top: 15px;
+    span {
+      padding-left: 7px;
+
+      font-size: 15px;
+    }
+  }
+  &__button {
+    display: block;
+
+    box-sizing: border-box;
+    padding-left: 70px;
+
+    text-decoration: none;
+
+    color: #fff;
+    border: 0;
+    background-color: transparent;
+
+    font-size: 18px;
+
+    @include bg($btn);
+  }
+  &__group {
+    display: flex;
+
+    margin-top: 15px;
+
+    align-items: center;
+    justify-content: flex-start;
+  }
+  &__number {
+    margin-left: 15px;
+
+    color: #900;
+
+    font-size: 24px;
+    span {
+      color: #000;
+    }
+  }
+}
+
+.top-header-method {
+  margin-top: -12px;
+  &__title {
+    margin-bottom: 10px;
+
+    color: rgba(#000, .7);
+
+    font-size: 15px;
+  }
+}
+
+.top-header-method-progress {
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+  &__percent {
+    padding-left: 7px;
+
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+.top-header-method-progress-box {
+  display: flex;
+  overflow: hidden;
+
+  width: 300px;
+  height: 22px;
+
+  border: 1px solid #dadada;
+
+  align-items: center;
+  justify-content: flex-start;
+  &__item {
+    @include bg($progress);
+  }
+}
+
+.top-header-method-analyse {
+  &__row {
+    display: flex;
+
+    margin-top: 15px;
+
+    font-size: 12px;
+
+    align-items: center;
+    justify-content: flex-start;
+  }
+  &__item {
+    width: 228px;
+  }
+  &__ok {
+    color: #178224;
+  }
+}
+
+.top-header-congratulations {
+  margin-top: 15px;
+
+  color: #369341;
+
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.top-header-email {
+  margin-bottom: 18px;
+  &__label {
+    margin-bottom: 6px;
+
+    font-size: 15px;
+    font-weight: 700;
+  }
+  &__field {
+    box-sizing: border-box;
+    width: 268px;
+    height: 42px;
+
+    border: 1px solid #d9d9d9;
+  }
+}
+
+.top-header-email-send {
+  margin-bottom: 23px;
+  padding-left: 14px;
+
+  color: #178224;
+  border-left: 2px solid #178224;
+
+  font-size: 15px;
+  line-height: 21px;
+  &._present {
+    position: relative;
+
+    width: 320px;
+
+    color: #330;
+    border-left-color: #9f0000;
+    span {
+      color: #9e0000;
+
+      font-weight: 700;
+    }
+    &:after {
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      content: "";
+
+      @include bg($present);
+    }
+  }
+}

@@ -1,0 +1,79 @@
+mixin top-header(page)
+  .top-header
+    - if (page == 'index')
+      .top-header-questions
+        .top-header-questions__title Ваш излишний вес, по вашему мнению?
+
+        form.top-header-questions__list
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span до 3кг
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span до 5 кг
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span до 10 кг
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span до 20 кг
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span до 30 кг
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span 30 и более
+
+          .top-header-questions__group
+            input(type="submit" value="Следующий вопрос").top-header-questions__button
+            .top-header-questions__number 1 
+              span из 10 
+    
+    - else if (page == 'construct')
+      .top-header-questions
+        .top-header-questions__title Обработка данных
+
+        .top-header-method
+          .top-header-method__title Составляем методику
+
+          .top-header-method-progress
+            .top-header-method-progress-box
+              - for (var i = 0; i < 22; i++)
+                .top-header-method-progress-box__item
+            .top-header-method-progress__percent 75%
+
+          .top-header-method-analyse
+            .top-header-method-analyse__row
+              .top-header-method-analyse__item Анализ выбранных ответов
+              .top-header-method-analyse__ok ОК
+            .top-header-method-analyse__row
+              .top-header-method-analyse__item Инициализация подбора методики
+              .top-header-method-analyse__ok ОК
+            .top-header-method-analyse__row
+              .top-header-method-analyse__item Подбор персональной методики
+              .top-header-method-analyse__ok OK
+            .top-header-method-analyse__row
+              .top-header-method-analyse__item Формирование и подготовка к выводу
+              .top-header-method-analyse__ok OK
+
+          .top-header-congratulations Поздравляем! Ваша персональная <br>методика составленна!
+
+          .top-header-questions__group
+            input(type="submit" value="Следующий вопрос").top-header-questions__button
+            .top-header-questions__number 1 
+              span из 10 
+
+    - else if (page == 'reg')
+      .top-header-questions
+        .top-header-questions__title Куда отправить результат?
+
+        .top-header-email
+          .top-header-email__label Введите Ваш емеил:
+          input(type="email" value="").top-header-email__field
+
+        .top-header-email-send Через 5 мин вы получите письмо <br>Не забудьте проверить папку “СПАМ”
+        .top-header-email-send._present В подарок Вы бесплатно получаете <br>каталог 
+          span диетическиех рецептов! 
+
+        .top-header-questions__group
+          input(type="submit" value="Продолжить").top-header-questions__button
