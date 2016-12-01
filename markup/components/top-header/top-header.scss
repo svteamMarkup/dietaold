@@ -1,3 +1,32 @@
+.js-interview {
+  display: none;
+  &._current {
+    display: block;
+  }
+}
+
+.js-count-reuslts {
+  display: none;
+}
+
+.js-count-reuslts-answers-item {
+  display: none !important;
+  &._active {
+    display: flex !important;
+  }
+}
+
+.js-count-reuslts-congratulation, .js-count-reuslts-trigger-btn {
+  display: none !important;
+  &._active {
+    display: block !important;
+  }
+}
+
+.js-email-send {
+  display: none;
+}
+
 .top-header {
   position: relative;
 
@@ -33,7 +62,7 @@
     display: block;
 
     box-sizing: border-box;
-    padding-left: 70px;
+    padding-left: 80px;
 
     text-decoration: none;
 
@@ -42,7 +71,7 @@
     background-color: transparent;
 
     font-size: 18px;
-
+    line-height: 74px;
     @include bg($btn);
   }
   &__group {

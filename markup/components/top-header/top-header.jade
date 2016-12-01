@@ -1,10 +1,10 @@
 mixin top-header(page)
   .top-header
-    - if (page == 'index')
-      .top-header-questions
+    .top-header-questions
+      .js-interview._current
         .top-header-questions__title Ваш излишний вес, по вашему мнению?
 
-        form.top-header-questions__list
+        .top-header-questions__list
           .top-header-questions__item
             input(type="radio" value="" name="weight")
             span до 3кг
@@ -24,56 +24,147 @@ mixin top-header(page)
             input(type="radio" value="" name="weight")
             span 30 и более
 
-          .top-header-questions__group
-            input(type="submit" value="Следующий вопрос").top-header-questions__button
-            .top-header-questions__number 1 
-              span из 10 
+      .js-interview
+        .top-header-questions__title Сколько вам полных лет?
+
+        .top-header-questions__list
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span от 18 до 25
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span от 26 до 30
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span от 31 до 35
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span от 36 до 40
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span от 41 до 45
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span от 46 до 50
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span старше 50
+
+      .js-interview
+        .top-header-questions__title Какой ваш текущий вес?
+
+        .top-header-questions__list
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span до 50 кг
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span от 51 до 60 кг
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span от 61 до 70 кг
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span от 71 до 80 кг
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span от 81 до 85 кг
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span от 86 до 90 кг
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span больше 90 кг
+
+      .js-interview
+        .top-header-questions__title Какой у вас рост?
+
+        .top-header-questions__list
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span до 150 см
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span от 151 до 160 см
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span от 161 до 170 см
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span от 171 до 180 см
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span от 181 до 185 см
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span от 186 до 190 см
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span выше 190 см
+
+      .js-interview
+        .top-header-questions__title Какой у вас образ жизни?
+
+        .top-header-questions__list
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span Активный
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span Пассивный
+          .top-header-questions__item
+            input(type="radio" value="" name="weight")
+            span Затрудняюсь ответить
+
+      .top-header-questions__group.js-interview-trigger
+        a(href="#").top-header-questions__button.js-interview-trigger-btn Следующий вопрос
+        .top-header-questions__number
+          span.js-interview-trigger-current 1 
+          span.js-interview-trigger-all из 5 
     
-    - else if (page == 'construct')
-      .top-header-questions
+      
+      .js-count-reuslts
         .top-header-questions__title Обработка данных
 
         .top-header-method
           .top-header-method__title Составляем методику
 
           .top-header-method-progress
-            .top-header-method-progress-box
-              - for (var i = 0; i < 22; i++)
-                .top-header-method-progress-box__item
-            .top-header-method-progress__percent 75%
+            .top-header-method-progress-box.js-count-reuslts-progress
+                .top-header-method-progress-box__item.js-count-reuslts-progress-item
+            .top-header-method-progress__percent.js-count-reuslts-progress-percent
 
-          .top-header-method-analyse
-            .top-header-method-analyse__row
+          .top-header-method-analyse.js-count-reuslts-answers
+            .top-header-method-analyse__row.js-count-reuslts-answers-item
               .top-header-method-analyse__item Анализ выбранных ответов
               .top-header-method-analyse__ok ОК
-            .top-header-method-analyse__row
+            .top-header-method-analyse__row.js-count-reuslts-answers-item
               .top-header-method-analyse__item Инициализация подбора методики
               .top-header-method-analyse__ok ОК
-            .top-header-method-analyse__row
+            .top-header-method-analyse__row.js-count-reuslts-answers-item
               .top-header-method-analyse__item Подбор персональной методики
               .top-header-method-analyse__ok OK
-            .top-header-method-analyse__row
+            .top-header-method-analyse__row.js-count-reuslts-answers-item
               .top-header-method-analyse__item Формирование и подготовка к выводу
               .top-header-method-analyse__ok OK
 
-          .top-header-congratulations Поздравляем! Ваша персональная <br>методика составленна!
+          .top-header-congratulations.js-count-reuslts-congratulation Поздравляем! Ваша персональная <br>методика составленна!
 
-          .top-header-questions__group
-            input(type="submit" value="Следующий вопрос").top-header-questions__button
-            .top-header-questions__number 1 
-              span из 10 
+          .top-header-questions__group.js-count-reuslts-trigger
+            a(href="#").top-header-questions__button.js-count-reuslts-trigger-btn Продолжить
 
-    - else if (page == 'reg')
-      .top-header-questions
-        .top-header-questions__title Куда отправить результат?
+      .js-email-send
+          .top-header-questions__title Куда отправить результат?
 
-        .top-header-email
-          .top-header-email__label Введите Ваш емеил:
-          input(type="email" value="").top-header-email__field
+          form(action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post")
+            input(type="hidden" name="campaign_token" value="pRj86")
+            .top-header-email
+              .top-header-email__label Введите Ваш емеил:
+              input(type="text" name="email" required).top-header-email__field
 
-        .top-header-email-send Через 5 мин вы получите письмо <br>Не забудьте проверить папку “СПАМ”
-        .top-header-email-send._present В подарок Вы бесплатно получаете <br>каталог 
-          span диетическиех рецептов! 
+            .top-header-email-send Через 5 мин вы получите письмо <br>Не забудьте проверить папку “СПАМ”
+            .top-header-email-send._present В подарок Вы бесплатно получаете <br>каталог 
+              span диетическиех рецептов! 
 
-        .top-header-questions__group
-          input(type="submit" value="Продолжить").top-header-questions__button
+            .top-header-questions__group
+              input(type="submit" value="Подписаться").top-header-questions__button

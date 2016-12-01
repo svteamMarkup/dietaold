@@ -401,6 +401,10 @@ blockquote {
 // Var for using custom font
 $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
 */
+input:focus {
+  outline: none;
+}
+
 html,
 body {
   height: 100%;
@@ -528,6 +532,40 @@ body {
   font-size: 11px;
 }
 
+.js-interview {
+  display: none;
+}
+
+.js-interview._current {
+  display: block;
+}
+
+.js-count-reuslts {
+  display: none;
+}
+
+.js-count-reuslts-answers-item {
+  display: none !important;
+}
+
+.js-count-reuslts-answers-item._active {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.js-count-reuslts-congratulation, .js-count-reuslts-trigger-btn {
+  display: none !important;
+}
+
+.js-count-reuslts-congratulation._active, .js-count-reuslts-trigger-btn._active {
+  display: block !important;
+}
+
+.js-email-send {
+  display: none;
+}
+
 .top-header {
   position: relative;
   width: 1027px;
@@ -563,12 +601,13 @@ body {
 .top-header-questions__button {
   display: block;
   box-sizing: border-box;
-  padding-left: 70px;
+  padding-left: 80px;
   text-decoration: none;
   color: #fff;
   border: 0;
   background-color: transparent;
   font-size: 18px;
+  line-height: 74px;
   background-image: url(../images/png-sprite/96dpi/sprite.png);
   background-position: -470px -147px;
   width: 267px;

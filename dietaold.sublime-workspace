@@ -4,6 +4,70 @@
 		"selected_items":
 		[
 			[
+				"marign",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"border-lef",
+				"border-left-color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"border",
+				"border-box"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"top",
+				"top-header"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"top-",
+				"top-header-method"
+			],
+			[
+				"top-header-me",
+				"top-header-method-progress"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"backgrou",
+				"background-position"
+			],
+			[
 				"para",
 				"parallaxContainer"
 			],
@@ -16,20 +80,8 @@
 				"hideList"
 			],
 			[
-				"margin",
-				"margin-top\tstyl"
-			],
-			[
 				"wn",
 				"windowTop"
-			],
-			[
-				"pad",
-				"padding-bottom\tstyl"
-			],
-			[
-				"padd",
-				"padding-top\tstyl"
 			],
 			[
 				"back",
@@ -64,10 +116,6 @@
 				"comment"
 			],
 			[
-				"wi",
-				"width\tstyl"
-			],
-			[
 				"texta",
 				"textarea\tTag"
 			],
@@ -90,22 +138,6 @@
 			[
 				"ima",
 				"image-src"
-			],
-			[
-				"text",
-				"text-align\tstyl"
-			],
-			[
-				"font",
-				"font-size\tstyl"
-			],
-			[
-				"marign",
-				"margin-right\tstyl"
-			],
-			[
-				"paddin",
-				"padding-bottom\tstyl"
 			],
 			[
 				"padding",
@@ -218,10 +250,6 @@
 			[
 				"con",
 				"console"
-			],
-			[
-				"fon",
-				"font-size\tstyl"
 			],
 			[
 				"margi",
@@ -368,10 +396,6 @@
 				"margin-top"
 			],
 			[
-				"backgrou",
-				"background"
-			],
-			[
 				"has",
 				"hasClass"
 			],
@@ -490,30 +514,6 @@
 			[
 				"c-ex",
 				"c-expert-opinion__column"
-			],
-			[
-				"ta",
-				"target\tAttr"
-			],
-			[
-				"conten",
-				"content-center\t(index.php)"
-			],
-			[
-				"уче",
-				"учета"
-			],
-			[
-				"кад",
-				"кадрового"
-			],
-			[
-				"запр",
-				"зарплатой"
-			],
-			[
-				"эксп",
-				"экспресс-обследование"
 			]
 		]
 	},
@@ -591,10 +591,27 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/extiser/git/svteam/dietaold/markup"
+		"/Users/extiser/git/svteam/dietaold/markup",
+		"/Users/extiser/git/svteam/dietaold/markup/components",
+		"/Users/extiser/git/svteam/dietaold/markup/components/top-header",
+		"/Users/extiser/git/svteam/dietaold/markup/pages",
+		"/Users/extiser/git/svteam/dietaold/markup/static",
+		"/Users/extiser/git/svteam/dietaold/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/svteam/dietaold/markup/pages/reg.jade",
+		"/Users/extiser/git/svteam/dietaold/markup/pages/index.jade",
+		"/Users/extiser/git/svteam/dietaold/markup/components/top-header/top-header.jade",
+		"/Users/extiser/git/svteam/dietaold/markup/components/top-header/top-header.scss",
+		"/Users/extiser/git/sovets-2015/markup/static/js/separate-js/parazit750_edge.js",
+		"/Users/extiser/git/svteam/dietaold/markup/components/footer/footer.jade",
+		"/Users/extiser/git/svteam/dietaold/markup/components/footer/footer.scss",
+		"/Users/extiser/git/svteam/dietaold/markup/components/about/about.jade",
+		"/Users/extiser/git/svteam/dietaold/markup/components/about/about.scss",
+		"/Users/extiser/git/svteam/dietaold/markup/components/fat/fat.jade",
+		"/Users/extiser/git/svteam/dietaold/markup/components/fat/fat.scss",
+		"/Users/extiser/git/svteam/dietaold/markup/static/scss/common.scss",
 		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/stylus/partials/layout/parallax.styl",
 		"/Users/extiser/MAMP/wiseadvice-new.ru/local/.development/src/js/module/parallax.js",
 		"/Users/extiser/MAMP/wiseadvice-new.ru/local/include/ru/home/deal.php",
@@ -710,19 +727,7 @@
 		"/Users/extiser/git/dietplatnik/markup/pages/_layout.jade",
 		"/Users/extiser/git/dietplatnik/markup/pages/reg-4-2.jade",
 		"/Users/extiser/git/dietplatnik/markup/pages/reg-4-1.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-3-3.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-3-2.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-3-1.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-1-2.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-1.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-1_2.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/footer/footer.scss",
-		"/Users/extiser/git/dietplatnik/markup/pages/index.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/peoples/peoples.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/peoples/peoples.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/master/master.scss",
-		"/Users/extiser/git/dietplatnik/markup/components/master/master.jade",
-		"/Users/extiser/git/dietplatnik/markup/components/advantages/advantages.jade"
+		"/Users/extiser/git/dietplatnik/markup/pages/reg-3-3.jade"
 	],
 	"find":
 	{

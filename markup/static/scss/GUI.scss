@@ -1,2 +1,8 @@
 // GUI stylies of the project
 // For example, styles of the links, buttons and so on.
+
+input {
+  &:focus {
+    outline: none;
+  }
+}
