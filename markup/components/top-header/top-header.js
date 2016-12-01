@@ -66,3 +66,12 @@ $('.js-count-reuslts-trigger-btn').click(function () {
 
   $('.js-email-send').show();
 });
+
+$('.js-form-validate').on('submit', function (e) {
+  if ($('.js-mail-valid').val().search('@') != -1 || $('.js-mail-valid').val() == '') {
+    return;
+  } else {
+    $('.js-mail-valid').css('box-shadow', '0 0 3px red');
+  }
+  e.preventDefault();
+});

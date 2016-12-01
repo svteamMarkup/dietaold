@@ -156,11 +156,11 @@ mixin top-header(page)
       .js-email-send
           .top-header-questions__title Куда отправить результат?
 
-          form(action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post")
+          form(action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post").js-form-validate
             input(type="hidden" name="campaign_token" value="pRj86")
             .top-header-email
               .top-header-email__label Введите Ваш емеил:
-              input(type="text" name="email" required).top-header-email__field
+              input(type="text" name="email" required).top-header-email__field.js-mail-valid
 
             .top-header-email-send Через 5 мин вы получите письмо <br>Не забудьте проверить папку “СПАМ”
             .top-header-email-send._present В подарок Вы бесплатно получаете <br>каталог 
