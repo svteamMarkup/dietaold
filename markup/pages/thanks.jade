@@ -1,0 +1,21 @@
+doctype html
+html(class="no-js", lang="ru")
+
+    include ../components/head/head
+    include ../components/top-header/top-header
+    include ../components/fat/fat
+    include ../components/about/about
+    include ../components/footer/footer
+
+    head
+        +head(head.defaults)
+    body
+        .top-header
+            .top-header-questions
+              .js-interview._current
+                .top-header-questions__title Спасибо! <br>Ваша персональная диета будет отправлена на указанный email
+        +fat
+        +about
+        +footer
+        //- Main scripts. You can replace it, but I recommend you to leave it here
+        script(src='%=static=%js/main%=hash=%%=min=%.js')

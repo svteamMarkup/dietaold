@@ -158,6 +158,7 @@ mixin top-header(page)
 
           form(action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post").js-form-validate
             input(type="hidden" name="campaign_token" value="pRj86")
+            input(type="hidden" name="thankyou_url" value="http://localhost:3004/thanks.html")
             .top-header-email
               .top-header-email__label Введите Ваш емеил:
               input(type="text" name="email" required).top-header-email__field.js-mail-valid
