@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"js-",
+				"js-count-reuslts-answers-item\t(top-header.scss)"
+			],
+			[
+				"js-cou",
+				"js-count-reuslts"
+			],
+			[
+				"js-interview-tr",
+				"js-interview-trigger-btn"
+			],
+			[
+				"ele",
+				"element"
+			],
+			[
+				"eleme",
+				"element"
+			],
+			[
 				"marign",
 				"margin-bottom"
 			],
@@ -106,10 +126,6 @@
 			[
 				"wind",
 				"windowTop"
-			],
-			[
-				"js-",
-				"js-parallax-window\t(deal.php)"
 			],
 			[
 				"comm",
@@ -498,27 +514,20 @@
 			[
 				"conte",
 				"content-area"
-			],
-			[
-				"gra",
-				"graph-line-text\t(index.php)"
-			],
-			[
-				"grap",
-				"graph-line-text\t(index.php)"
-			],
-			[
-				"_over",
-				"_overnundred"
-			],
-			[
-				"c-ex",
-				"c-expert-opinion__column"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "markup/components/top-header/top-header.jade",
+			"settings":
+			{
+				"buffer_size": 7153,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -593,6 +602,7 @@
 	[
 		"/Users/extiser/git/svteam/dietaold/markup",
 		"/Users/extiser/git/svteam/dietaold/markup/components",
+		"/Users/extiser/git/svteam/dietaold/markup/components/footer",
 		"/Users/extiser/git/svteam/dietaold/markup/components/top-header",
 		"/Users/extiser/git/svteam/dietaold/markup/pages",
 		"/Users/extiser/git/svteam/dietaold/markup/static",
@@ -600,12 +610,15 @@
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/svteam/dietaold/markup/pages/thanks.jade",
+		"/Users/extiser/git/svteam/dietaold/markup/components/footer/footer.jade",
+		"/Users/extiser/git/svteam/dietaold/markup/components/top-header/top-header.jade",
+		"/Users/extiser/git/svteam/dietaold/markup/components/top-header/top-header.js",
+		"/Users/extiser/git/svteam/dietaold/markup/components/top-header/top-header.scss",
+		"/Users/extiser/git/svteam/dietaold/markup/static/scss/GUI.scss",
 		"/Users/extiser/git/svteam/dietaold/markup/pages/reg.jade",
 		"/Users/extiser/git/svteam/dietaold/markup/pages/index.jade",
-		"/Users/extiser/git/svteam/dietaold/markup/components/top-header/top-header.jade",
-		"/Users/extiser/git/svteam/dietaold/markup/components/top-header/top-header.scss",
 		"/Users/extiser/git/sovets-2015/markup/static/js/separate-js/parazit750_edge.js",
-		"/Users/extiser/git/svteam/dietaold/markup/components/footer/footer.jade",
 		"/Users/extiser/git/svteam/dietaold/markup/components/footer/footer.scss",
 		"/Users/extiser/git/svteam/dietaold/markup/components/about/about.jade",
 		"/Users/extiser/git/svteam/dietaold/markup/components/about/about.scss",
@@ -724,10 +737,7 @@
 		"/Users/extiser/git/dietplatnik/tars-config.js",
 		"/Users/extiser/git/dietplatnik/markup/components/user-profile/user-profile.jade",
 		"/Users/extiser/git/dietplatnik/markup/components/user-profile/user-profile.scss",
-		"/Users/extiser/git/dietplatnik/markup/pages/_layout.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-4-2.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-4-1.jade",
-		"/Users/extiser/git/dietplatnik/markup/pages/reg-3-3.jade"
+		"/Users/extiser/git/dietplatnik/markup/pages/_layout.jade"
 	],
 	"find":
 	{
@@ -775,6 +785,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			".js-count-reuslts-answers",
 			"form",
 			"text-high",
 			".btn",
@@ -901,8 +912,7 @@
 			"promo-slide2",
 			"promo-slide2__holder",
 			".bx-pager",
-			".promo-slider .bx-wrapper .bx-pager",
-			"display: none"
+			".promo-slider .bx-wrapper .bx-pager"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -910,6 +920,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			".js-count-results-answers",
 			"transition all .33s ease-out",
 			"transition color .33s ease-out",
 			"wa-blog-list-item-tags__item clearfix",
@@ -1036,8 +1047,7 @@
 			"cr_stone_m",
 			"sand_m",
 			"sand_kg",
-			"sand_m",
-			"cement"
+			"sand_m"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1048,8 +1058,40 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "markup/components/top-header/top-header.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6576,
+								6576
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3341.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1096,7 +1138,7 @@
 	"project": "dietaold.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 114.0
 	},
 	"save_all_on_build": true,
 	"select_file":

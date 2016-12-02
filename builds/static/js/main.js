@@ -80,3 +80,37 @@ $('.js-form-validate').on('submit', function (e) {
   }
   e.preventDefault();
 });
+
+var api_key = 'b60eac78cbf182931ab4377ca8ada6c1';
+var CAMPAIGN_ID = 'pRj86'; //замените на свою токен
+var api_url = 'http://api2.getresponse.com';
+$.ajax({
+    url     : api_url,
+    data    : JSON.stringify({
+        'jsonrpc'    : '2.0',
+        'method'    : 'add_contact',
+        'params'    : [
+            api_key,
+            {
+                // identifier of 'test' campaign
+                'campaign'  : CAMPAIGN_ID,
+                // basic info
+                'name'      : name,
+                'email'     : email,
+              'cycle_day' : '0'//,
+            }
+        ],
+        'id'        : 2
+    }),
+    type        : 'POST',
+    contentType : 'application/json',
+    dataType    : 'JSON',
+    crossDomain : true,
+    async       : false,
+    success     : function(response)
+    {
+        // uncomment following line to preview Response
+        // alert(JSON.stringify(response));
+        console.log('Contact added');
+    }
+});

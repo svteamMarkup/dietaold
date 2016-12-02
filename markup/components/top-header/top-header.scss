@@ -40,10 +40,10 @@
 }
 .top-header-questions {
   position: absolute;
-  top: 170px;
+  top: 160px;
   left: 514px;
   &__title {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
     color: #8d1111;
 
@@ -169,6 +169,7 @@
 
     font-size: 15px;
     font-weight: 700;
+    display: block;
   }
   &__field {
     box-sizing: border-box;
@@ -176,6 +177,7 @@
     height: 42px;
 
     border: 1px solid #d9d9d9;
+    margin-bottom: 15px;
   }
 }
 
